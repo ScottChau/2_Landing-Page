@@ -99,3 +99,20 @@ nav a {
   font-size: 10px;
   text-align: center;
 }
+
+.quotes-section {
+  background-color: #e5e7eb;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote {
+  color: #1f2937;
+  font-size: 24px;
+  width: 500px;
+  font-style: italic;
+}
+.author {
+  float: right;
+}
