@@ -156,3 +156,16 @@ nav a {
   border: 3px solid white;
   background-color: #3882f6;
 }
+
+.copyright {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.copyright p {
+  margin: 0;
+}
