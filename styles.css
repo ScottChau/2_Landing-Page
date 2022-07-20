@@ -3,6 +3,13 @@ body {
   margin: 0;
 }
 
+button {
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  color: white;
+}
+
 h4 {
   margin: 0;
   text-align: center;
@@ -69,7 +76,7 @@ nav a {
 }
 
 .body {
-  height: 300px;
+  height: 400px;
 }
 
 .container {
@@ -80,15 +87,16 @@ nav a {
 }
 
 .container div {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   border: 5px solid #3882f6;
+  border-radius: 10px;
 }
 
 .subtext {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 85px;
 }
 
 .subtext div {
@@ -96,7 +104,7 @@ nav a {
   padding: 0;
   width: 100px;
   height: 20px;
-  font-size: 10px;
+  font-size: 13px;
   text-align: center;
 }
 
@@ -115,4 +123,36 @@ nav a {
 }
 .author {
   float: right;
+}
+
+.footer-1 {
+  background-color: #3882f6;
+  height: 100px;
+  width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.footer-text {
+  width: 500px;
+}
+
+.footer-action {
+  color: white;
+  margin-bottom: 3px;
+}
+.footer-signup {
+  color: silver;
+  margin-top: 0;
+}
+
+.footer-button {
+  height: 30px;
+  font: white;
+  border: 3px solid white;
+  background-color: #3882f6;
 }
