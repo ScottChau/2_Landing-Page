@@ -5,8 +5,14 @@ body {
 
 h3 {
   margin: 0;
+  color: #f9faf8;
 }
 
+h2 {
+  margin: 0;
+  font-size: 48px;
+  color: #f9faf8;
+}
 nav a {
   float: right;
   color: white;
@@ -19,5 +25,37 @@ nav a {
   color: white;
   display: flex;
   justify-content: space-between;
-  padding: 20px 30px;
+  padding: 20px 100px;
+}
+
+.intro {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+  height: 300px;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.description {
+  width: 500px;
+}
+
+.image {
+  background-color: grey;
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro_button {
+  background-color: #3882f6;
+  color: white;
 }
